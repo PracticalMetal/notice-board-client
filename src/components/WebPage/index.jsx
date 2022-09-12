@@ -172,5 +172,3 @@ function WebPage() {
 
 export default WebPage;
 
-
-// aspect-ratio: auto 930 / 411;
