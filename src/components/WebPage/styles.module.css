@@ -1,0 +1,86 @@
+
+.newsside{
+    /* margin-left:0px; */
+    /* width: 290px; */
+    
+}
+
+.photo{
+    margin-right:0px;
+    /* width: 290px;
+    height:100px; */
+    display: flex;
+    align-items: center;
+	justify-content: space-between;
+}
+
+.item{
+    /* display: flex; */
+	align-items: center;
+	justify-content: space-between;
+    /* text-align: center; */
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.tables{
+    border-radius: 25px;
+    margin-top:10px;
+}
+
+.heading{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(39,60,144,1) 43%, rgba(36,73,154,1) 48%, rgba(30,97,171,1) 57%, rgba(24,121,189,1) 66%, rgba(20,137,201,1) 72%, rgba(0,212,255,1) 100%);
+    border-radius: 25px;
+    width:70%;
+    /* font-size: 17px; */
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+h5{
+    font-size: 35px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+p{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.brand{
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    color: black;
+}
+
+tbody{
+    font-family: 'Inter', sans-serif;
+}
+
+Nav{
+    font-family: 'Inter', sans-serif;
+}
+
+th{
+    font-family: 'Inter', sans-serif;
+}
+
+.banner{
+    font-family: 'Inter', sans-serif;
+    color:black;
+}
+
+.cara{
+    height:1000px;
+}
+
+.cover {
+    object-fit: cover;
+    width: 50px;
+    height: 100px;
+}

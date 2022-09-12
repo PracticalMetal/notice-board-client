@@ -1,0 +1,14 @@
+.displayimg{
+    /* Display: flex;
+    Height: 100vh;
+    Width: 100vw;  */
+    Align-Items: center;
+    Justify-Content: centre;
+    display: block;
+    max-width:600px;
+    /* max-height:100vw; */
+    width: 50vw;
+    height: 100vh;
+    margin: auto;
+  
+}
