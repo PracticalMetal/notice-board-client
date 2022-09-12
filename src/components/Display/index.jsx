@@ -19,7 +19,7 @@ function Display() {
     
     
     const [url, setURL] = useState("");
-    axios.get('http://localhost:8080/api/get/displayimage')
+    axios.get('https://iit-notice-board-backend.herokuapp.com/api/get/displayimage')
     .then((response)=>{
         if(response){
             

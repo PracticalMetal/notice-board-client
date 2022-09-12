@@ -30,7 +30,7 @@ const Uploading=()=>{
         data.append('images',fileData);
         
         console.log(data);
-        fetch("http://localhost:8080/api/upload",{
+        fetch("https://iit-notice-board-backend.herokuapp.com/api/upload",{
             method:"POST",
             body: data,
         })

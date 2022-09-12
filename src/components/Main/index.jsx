@@ -20,9 +20,9 @@ const Main = () => {
 		const path=e;
         alert("File Approved!");
 		setPathName(path);
-		const url = "http://localhost:8080/api/post/displayimage";
+		const url = "https://iit-notice-board-backend.herokuapp.com/api/post/displayimage";
 
-		axios.post("http://localhost:8080/api/post/reset")
+		axios.post("https://iit-notice-board-backend.herokuapp.com/api/post/reset")
 
 		axios.post(url, {path:path})
 		  .then(function (response) {
@@ -38,7 +38,7 @@ const Main = () => {
 	function handleDelete(e) {
         console.log(e);
 		const path=e;
-		const url = "http://localhost:8080/api/post/deletepost";
+		const url = "https://iit-notice-board-backend.herokuapp.com/api/post/deletepost";
 
 
 		axios.post(url, {pathDelete:path})
@@ -64,7 +64,7 @@ const Main = () => {
     }
 
 	const getuploads=()=>{
-		axios.get('http://localhost:8080/api/get/upload')
+		axios.get('https://iit-notice-board-backend.herokuapp.com/api/get/upload')
 		.then((response)=>{
 			const data=response.data;
 			setPhotos(data);

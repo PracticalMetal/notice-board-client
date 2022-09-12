@@ -29,7 +29,7 @@ function WebPage() {
   const [pathName, setPathName] = useState("");
   const navigate = useNavigate()
 
-  axios.get('http://localhost:8080/api/get/upload')
+  axios.get('https://iit-notice-board-backend.herokuapp.com/api/get/upload')
     .then((response) => {
       const data = response.data;
       setPhotos(data);
@@ -48,7 +48,7 @@ function WebPage() {
 
 
   const [url, setURL] = useState("");
-  axios.get('http://localhost:8080/api/get/displayimage')
+  axios.get('https://iit-notice-board-backend.herokuapp.com/api/get/displayimage')
     .then((response) => {
       if (response) {
 
